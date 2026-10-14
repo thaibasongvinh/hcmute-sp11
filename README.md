@@ -2,6 +2,6 @@
 
 Mini-game ôn tập Bài 11 — Những vấn đề cơ bản về bảo vệ an ninh quốc gia và giữ gìn trật tự, an toàn xã hội.
 
-**Chơi:** https://kujopht.github.io/hcmute-sp11/
+**Chơi:** https://thaibasongvinh.github.io/hcmute-sp11/
 
 Repo này chỉ chứa bản build tĩnh (production) của game. Dữ liệu chơi (ai đã được gọi, kỷ lục) lưu trong trình duyệt của từng người.
