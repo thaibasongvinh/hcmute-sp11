@@ -1,0 +1,542 @@
+[
+  {
+    "id": "bui-le-tin-bao",
+    "last": "Bùi Lê Tín",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "dang-gia-bao",
+    "last": "Đặng Gia",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "luong-gia-bao",
+    "last": "Lương Gia",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "nguyen-duc-bao",
+    "last": "Nguyễn Đức",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "nguyen-hung-quoc-bao",
+    "last": "Nguyễn Hùng Quốc",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "nguyen-quoc-bao",
+    "last": "Nguyễn Quốc",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "nguyen-van-thien-bao",
+    "last": "Nguyễn Văn Thiên",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "pham-gia-bao",
+    "last": "Phạm Gia",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "pham-phuc-gia-bao",
+    "last": "Phạm Phúc Gia",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "tran-nguyen-bao",
+    "last": "Trần Nguyên",
+    "first": "Bảo",
+    "squad": 1
+  },
+  {
+    "id": "nguyen-huu-binh",
+    "last": "Nguyễn Hữu",
+    "first": "Bình",
+    "squad": 1
+  },
+  {
+    "id": "nguyen-huu-binh-2",
+    "last": "Nguyễn Hữu",
+    "first": "Bình",
+    "squad": 1
+  },
+  {
+    "id": "phan-thai-binh",
+    "last": "Phan Thái",
+    "first": "Bình",
+    "squad": 1
+  },
+  {
+    "id": "trieu-thi-bong",
+    "last": "Triệu Thị",
+    "first": "Bông",
+    "squad": 1
+  },
+  {
+    "id": "dao-nguyen-buu-boi",
+    "last": "Đào Nguyên Bửu",
+    "first": "Bối",
+    "squad": 1
+  },
+  {
+    "id": "pham-minh-chau",
+    "last": "Phạm Minh",
+    "first": "Châu",
+    "squad": 1
+  },
+  {
+    "id": "tran-nguyen-hoang-chau",
+    "last": "Trần Nguyễn Hoàng",
+    "first": "Châu",
+    "squad": 1
+  },
+  {
+    "id": "dong-duc-chinh",
+    "last": "Đồng Đức",
+    "first": "Chinh",
+    "squad": 1
+  },
+  {
+    "id": "le-hoang-an-chuong",
+    "last": "Lê Hoàng An",
+    "first": "Chương",
+    "squad": 2
+  },
+  {
+    "id": "dao-dang-cuong",
+    "last": "Đào Đăng",
+    "first": "Cương",
+    "squad": 2
+  },
+  {
+    "id": "nguyen-thanh-danh",
+    "last": "Nguyễn Thành",
+    "first": "Danh",
+    "squad": 2
+  },
+  {
+    "id": "bo-nguyen-bao-duy",
+    "last": "Bồ Nguyễn Bảo",
+    "first": "Duy",
+    "squad": 2
+  },
+  {
+    "id": "hoang-minh-duy",
+    "last": "Hoàng Minh",
+    "first": "Duy",
+    "squad": 2
+  },
+  {
+    "id": "nguyen-anh-duy",
+    "last": "Nguyễn Anh",
+    "first": "Duy",
+    "squad": 2
+  },
+  {
+    "id": "nguyen-le-duy",
+    "last": "Nguyễn Lê",
+    "first": "Duy",
+    "squad": 2
+  },
+  {
+    "id": "nguyen-vu-duy",
+    "last": "Nguyễn Vũ",
+    "first": "Duy",
+    "squad": 2
+  },
+  {
+    "id": "pham-bao-minh-duy",
+    "last": "Phạm Bảo Minh",
+    "first": "Duy",
+    "squad": 2
+  },
+  {
+    "id": "tran-nhat-duy",
+    "last": "Trần Nhật",
+    "first": "Duy",
+    "squad": 2
+  },
+  {
+    "id": "bien-xuan-dung",
+    "last": "Biện Xuân",
+    "first": "Dũng",
+    "squad": 2
+  },
+  {
+    "id": "nguyen-tuan-dung",
+    "last": "Nguyễn Tuấn",
+    "first": "Dũng",
+    "squad": 2
+  },
+  {
+    "id": "pham-huu-quang-dung",
+    "last": "Phạm Hữu Quang",
+    "first": "Dũng",
+    "squad": 2
+  },
+  {
+    "id": "be-trung-dai",
+    "last": "Bế Trung",
+    "first": "Đại",
+    "squad": 2
+  },
+  {
+    "id": "nguyen-phuoc-dat",
+    "last": "Nguyễn Phước",
+    "first": "Đạt",
+    "squad": 2
+  },
+  {
+    "id": "nguyen-trong-dat",
+    "last": "Nguyễn Trọng",
+    "first": "Đạt",
+    "squad": 2
+  },
+  {
+    "id": "tran-minh-dat",
+    "last": "Trần Minh",
+    "first": "Đạt",
+    "squad": 2
+  },
+  {
+    "id": "trinh-tan-dat",
+    "last": "Trịnh Tấn",
+    "first": "Đạt",
+    "squad": 2
+  },
+  {
+    "id": "son-vinh-khang",
+    "last": "Sơn Vĩnh",
+    "first": "Khang",
+    "squad": 4
+  },
+  {
+    "id": "thai-vinh-khang",
+    "last": "Thái Vĩnh",
+    "first": "Khang",
+    "squad": 4
+  },
+  {
+    "id": "thuan-luu-bao-khang",
+    "last": "Thuận Lưu Bảo",
+    "first": "Khang",
+    "squad": 4
+  },
+  {
+    "id": "vo-khang",
+    "last": "Võ",
+    "first": "Khang",
+    "squad": 4
+  },
+  {
+    "id": "nguyen-an-khanh",
+    "last": "Nguyễn An",
+    "first": "Khánh",
+    "squad": 4
+  },
+  {
+    "id": "nguyen-anh-khoa",
+    "last": "Nguyễn Anh",
+    "first": "Khoa",
+    "squad": 4
+  },
+  {
+    "id": "nguyen-huu-dang-khoa",
+    "last": "Nguyễn Hữu Đăng",
+    "first": "Khoa",
+    "squad": 4
+  },
+  {
+    "id": "phan-trung-kien",
+    "last": "Phan Trung",
+    "first": "Kiên",
+    "squad": 4
+  },
+  {
+    "id": "dinh-tuan-kiet",
+    "last": "Đinh Tuấn",
+    "first": "Kiệt",
+    "squad": 4
+  },
+  {
+    "id": "dang-nguyen-thien-kim",
+    "last": "Đặng Nguyễn Thiên",
+    "first": "Kim",
+    "squad": 4
+  },
+  {
+    "id": "le-do-hoang-long",
+    "last": "Lê Đỗ Hoàng",
+    "first": "Long",
+    "squad": 4
+  },
+  {
+    "id": "nguyen-minh-long",
+    "last": "Nguyễn Minh",
+    "first": "Long",
+    "squad": 4
+  },
+  {
+    "id": "nguyen-nhat-long",
+    "last": "Nguyễn Nhật",
+    "first": "Long",
+    "squad": 4
+  },
+  {
+    "id": "to-hien-long",
+    "last": "Tô Hiển",
+    "first": "Long",
+    "squad": 4
+  },
+  {
+    "id": "duong-tan-loc",
+    "last": "Dương Tấn",
+    "first": "Lộc",
+    "squad": 4
+  },
+  {
+    "id": "ngo-phuoc-loc",
+    "last": "Ngô Phước",
+    "first": "Lộc",
+    "squad": 4
+  },
+  {
+    "id": "pham-gia-minh",
+    "last": "Phạm Gia",
+    "first": "Minh",
+    "squad": 4
+  },
+  {
+    "id": "nguyen-truong-quoc-nam",
+    "last": "Nguyễn Trương Quốc",
+    "first": "Nam",
+    "squad": 4
+  },
+  {
+    "id": "tran-thien-phat",
+    "last": "Trần Thiên",
+    "first": "Phát",
+    "squad": 5
+  },
+  {
+    "id": "huynh-ngoc-thanh-phong",
+    "last": "Huỳnh Ngọc Thanh",
+    "first": "Phong",
+    "squad": 5
+  },
+  {
+    "id": "dao-thanh-phu",
+    "last": "Đào Thanh",
+    "first": "Phú",
+    "squad": 5
+  },
+  {
+    "id": "bui-trieu-phuc",
+    "last": "Bùi Triệu",
+    "first": "Phúc",
+    "squad": 5
+  },
+  {
+    "id": "nguyen-tan-phuc",
+    "last": "Nguyễn Tấn",
+    "first": "Phúc",
+    "squad": 5
+  },
+  {
+    "id": "dinh-hoang-phuoc",
+    "last": "Đinh Hoàng",
+    "first": "Phước",
+    "squad": 5
+  },
+  {
+    "id": "huynh-tan-phuoc",
+    "last": "Huỳnh Tấn",
+    "first": "Phước",
+    "squad": 5
+  },
+  {
+    "id": "huynh-thanh-phuoc",
+    "last": "Huỳnh Thanh",
+    "first": "Phước",
+    "squad": 5
+  },
+  {
+    "id": "nguyen-minh-ngoc-quang",
+    "last": "Nguyễn Minh Ngọc",
+    "first": "Quang",
+    "squad": 5
+  },
+  {
+    "id": "nguyen-the-anh-quang",
+    "last": "Nguyễn Thế Anh",
+    "first": "Quang",
+    "squad": 5
+  },
+  {
+    "id": "vu-hao-quang",
+    "last": "Vũ Hào",
+    "first": "Quang",
+    "squad": 5
+  },
+  {
+    "id": "dinh-hoang-quan",
+    "last": "Đinh Hoàng",
+    "first": "Quân",
+    "squad": 5
+  },
+  {
+    "id": "le-ba-quan",
+    "last": "Lê Bá",
+    "first": "Quân",
+    "squad": 5
+  },
+  {
+    "id": "moc-quoc-quan",
+    "last": "Mộc Quốc",
+    "first": "Quân",
+    "squad": 5
+  },
+  {
+    "id": "tran-hoang-quan",
+    "last": "Trần Hoàng",
+    "first": "Quân",
+    "squad": 5
+  },
+  {
+    "id": "vo-minh-quan",
+    "last": "Võ Minh",
+    "first": "Quân",
+    "squad": 5
+  },
+  {
+    "id": "le-thanh-qui",
+    "last": "Lê Thanh",
+    "first": "Quí",
+    "squad": 5
+  },
+  {
+    "id": "bui-ngoc-quy",
+    "last": "Bùi Ngọc",
+    "first": "Quý",
+    "squad": 5
+  },
+  {
+    "id": "pham-ngoc-sang",
+    "last": "Phạm Ngọc",
+    "first": "Sang",
+    "squad": 6
+  },
+  {
+    "id": "vo-thanh-tai",
+    "last": "Võ Thành",
+    "first": "Tài",
+    "squad": 6
+  },
+  {
+    "id": "tran-dinh-tam",
+    "last": "Trần Đình",
+    "first": "Tâm",
+    "squad": 6
+  },
+  {
+    "id": "le-tran-nhat-tan",
+    "last": "Lê Trần Nhật",
+    "first": "Tấn",
+    "squad": 6
+  },
+  {
+    "id": "tran-minh-thanh",
+    "last": "Trần Minh",
+    "first": "Thanh",
+    "squad": 6
+  },
+  {
+    "id": "truong-do-hoang-thien-thanh",
+    "last": "Trương Đỗ Hoàng Thiên",
+    "first": "Thanh",
+    "squad": 6
+  },
+  {
+    "id": "nguyen-phuoc-thanh",
+    "last": "Nguyễn Phước",
+    "first": "Thành",
+    "squad": 6
+  },
+  {
+    "id": "pham-van-thanh",
+    "last": "Phạm Văn",
+    "first": "Thành",
+    "squad": 6
+  },
+  {
+    "id": "cao-duc-thang",
+    "last": "Cao Đức",
+    "first": "Thắng",
+    "squad": 6
+  },
+  {
+    "id": "phan-dinh-thang",
+    "last": "Phan Đình",
+    "first": "Thắng",
+    "squad": 6
+  },
+  {
+    "id": "chieng-loc-thien",
+    "last": "Chiềng Lộc",
+    "first": "Thiên",
+    "squad": 6
+  },
+  {
+    "id": "nguyen-ngoc-thien",
+    "last": "Nguyễn Ngọc",
+    "first": "Thiên",
+    "squad": 6
+  },
+  {
+    "id": "le-van-thien",
+    "last": "Lê Văn",
+    "first": "Thiện",
+    "squad": 6
+  },
+  {
+    "id": "nguyen-duc-thien",
+    "last": "Nguyễn Đức",
+    "first": "Thiện",
+    "squad": 6
+  },
+  {
+    "id": "le-quoc-thinh",
+    "last": "Lê Quốc",
+    "first": "Thịnh",
+    "squad": 6
+  },
+  {
+    "id": "ly-duc-thinh",
+    "last": "Lý Đức",
+    "first": "Thịnh",
+    "squad": 6
+  },
+  {
+    "id": "duong-tuan-vu",
+    "last": "Dương Tuấn",
+    "first": "Vũ",
+    "squad": 6
+  },
+  {
+    "id": "nguyen-anh-vu",
+    "last": "Nguyễn Anh",
+    "first": "Vũ",
+    "squad": 6
+  }
+]
