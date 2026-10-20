@@ -1,45 +1,56 @@
 # Hướng dẫn chỉnh sửa nội dung
 
-## Câu hỏi
+Nội dung trò chơi được lưu trong hai tệp JSON. Sửa các tệp này, lưu lại rồi tải lại trang để xem thay đổi.
 
-Mở **data/questions.json**. Mỗi phần tử trong danh sách là một câu. Ví dụ:
+## Câu hỏi và đáp án
 
-    {
-      "id": 1,
-      "sector": "KHÁI NIỆM",
-      "question": "Câu hỏi hiển thị ở đây?",
-      "options": [
-        "Phương án A",
-        "Phương án B",
-        "Phương án C",
-        "Phương án D",
-        "Phương án E",
-        "Phương án F"
-      ],
-      "correctIndex": 0,
-      "explanation": "Giải thích đáp án đúng.",
-      "sourcePage": "Trang 1"
-    }
+Sửa `data/questions.json`. Mỗi phần tử là một câu hỏi. Ví dụ:
 
-**correctIndex** đếm từ 0: 0 là phương án A, 1 là B, …, 5 là F. Giữ options và correctIndex trong cùng một câu để đáp án không bị lệch khi sắp xếp. Có thể thêm, xóa hoặc sửa câu hỏi; số câu trên giao diện tự cập nhật.
+```json
+{
+  "id": 1,
+  "sector": "KHÁI NIỆM",
+  "question": "Câu hỏi hiển thị ở đây?",
+  "options": [
+    "Phương án A",
+    "Phương án B",
+    "Phương án C",
+    "Phương án D",
+    "Phương án E",
+    "Phương án F"
+  ],
+  "correctIndex": 0,
+  "explanation": "Giải thích đáp án đúng.",
+  "sourcePage": "Trang 1"
+}
+```
 
-## Danh sách lớp
+- `id` là mã số riêng của câu hỏi.
+- `sector` là nhãn chủ đề.
+- `options` chứa các phương án theo thứ tự hiển thị.
+- `correctIndex` đếm từ 0: `0` là phương án A, `1` là B, đến `5` là F.
+- `explanation` là phần giải thích đáp án.
+- `sourcePage` ghi trang tài liệu tham khảo.
 
-Mở **data/students.json**. Mỗi người có mã định danh duy nhất, họ, tên và số tiểu đội:
+Giữ `correctIndex` khớp với phương án đúng sau khi sắp xếp `options`. Có thể thêm, xóa hoặc sửa câu; số câu được lấy từ danh sách này.
 
-    {
-      "id": "nguyen-van-an",
-      "last": "Nguyễn Văn",
-      "first": "An",
-      "squad": 1
-    }
+## Danh sách sinh viên
 
-ID không nên trùng nhau. Số tiểu đội dùng để chia nhóm khi rút thăm.
+Sửa `data/students.json`. Mỗi sinh viên có dạng:
 
-## Thông tin hiển thị và luật chơi
+```json
+{
+  "id": "nguyen-van-an",
+  "last": "Nguyễn Văn",
+  "first": "An",
+  "squad": 1
+}
+```
 
-Mở **data/settings.json** để sửa tên trường, tiêu đề, mô tả, số cơ hội cho mỗi câu và điểm tối đa của câu đúng.
+`id` phải duy nhất; `last` và `first` được ghép thành họ tên hiển thị; `squad` là số tiểu đội.
 
-## Cách áp dụng thay đổi
+## Áp dụng lên website
 
-Lưu các tệp JSON rồi tải lại trang. Khi chạy trên GitHub Pages, commit các thay đổi lên nhánh đang dùng để website nhận nội dung mới. Không cần sửa **src/main.js** khi chỉ đổi câu hỏi, đáp án, giải thích, danh sách lớp hoặc thông tin trong settings.json.
+Khi chạy thử tại máy, khởi động máy chủ bằng `npm start` rồi mở `http://localhost:4173`. Khi cập nhật website GitHub Pages, commit thay đổi JSON lên nhánh đang xuất bản và chờ Pages cập nhật.
+
+Mã nguồn ban đầu của giao diện không có trong repo dưới dạng dự án có thể chỉnh sửa. Vì vậy, giao diện và cách chơi đang được giữ từ bản build cũ; hướng dẫn này chỉ áp dụng cho câu hỏi, đáp án, giải thích và danh sách sinh viên.

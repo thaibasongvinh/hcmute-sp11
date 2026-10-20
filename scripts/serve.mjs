@@ -22,7 +22,13 @@ createServer(async (request, response) => {
   try {
     const requestUrl = new URL(request.url || "/", "http://localhost");
     const pathname = decodeURIComponent(requestUrl.pathname);
-    const relativePath = pathname.endsWith("/") ? pathname + "index.html" : pathname;
+    const basePath = "/hcmute-sp11";
+    const appPath = pathname === basePath
+      ? "/"
+      : pathname.startsWith(basePath + "/")
+        ? pathname.slice(basePath.length)
+        : pathname;
+    const relativePath = appPath.endsWith("/") ? appPath + "index.html" : appPath;
     const filePath = resolve(root, "." + relativePath);
 
     if (filePath !== root && !filePath.startsWith(root + sep)) {
