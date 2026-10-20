@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "sector": "KHÁI NIỆM",
+    "question": "Theo Bài 11, \"an ninh quốc gia\" được hiểu là gì?",
+    "options": [
+      "Sự ổn định, phát triển bền vững của chế độ và Nhà nước; bảo đảm độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ.",
+      "Chỉ là khả năng bảo vệ biên giới bằng lực lượng vũ trang.",
+      "Trạng thái xã hội không còn tội phạm và vi phạm pháp luật.",
+      "Khả năng duy trì tốc độ tăng trưởng kinh tế cao.",
+      "Hoạt động đối ngoại nhằm mở rộng quan hệ quốc tế.",
+      "Chỉ là việc bảo vệ bí mật nhà nước trong lĩnh vực quốc phòng."
+    ],
+    "correctIndex": 0,
+    "explanation": "Bài 11 định nghĩa an ninh quốc gia là sự ổn định, phát triển bền vững của chế độ và Nhà nước; bảo đảm độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ. Nó gồm nhiều lĩnh vực: chính trị, kinh tế, xã hội, tư tưởng – văn hóa, quốc phòng, đối ngoại.",
+    "sourcePage": "Trang 1"
+  },
+  {
+    "id": 2,
+    "sector": "KHÁI NIỆM",
+    "question": "Bảo vệ an ninh quốc gia được xác định là hoạt động nào?",
+    "options": [
+      "Chỉ xử lý các vụ việc sau khi hành vi xâm phạm đã xảy ra.",
+      "Phòng ngừa, phát hiện, ngăn chặn và đấu tranh làm thất bại các hoạt động xâm phạm an ninh quốc gia.",
+      "Chỉ bảo vệ lãnh thổ và biên giới quốc gia.",
+      "Chỉ do lực lượng Công an nhân dân thực hiện.",
+      "Chủ yếu tập trung vào bảo vệ hoạt động kinh tế.",
+      "Chỉ đấu tranh với các loại tội phạm hình sự."
+    ],
+    "correctIndex": 1,
+    "explanation": "Theo Bài 11, bảo vệ an ninh quốc gia là phòng ngừa, phát hiện, ngăn chặn và đấu tranh làm thất bại các hoạt động xâm phạm an ninh quốc gia. Phòng ngừa đứng đầu, nên đây không chỉ là xử lý sau khi sự việc đã xảy ra.",
+    "sourcePage": "Trang 1"
+  },
+  {
+    "id": 3,
+    "sector": "KHÁI NIỆM",
+    "question": "Theo Bài 11, lĩnh vực nào của an ninh quốc gia được xác định là cốt lõi và xuyên suốt?",
+    "options": [
+      "An ninh kinh tế.",
+      "An ninh xã hội.",
+      "An ninh chính trị.",
+      "An ninh tư tưởng - văn hóa.",
+      "An ninh quốc phòng.",
+      "An ninh đối ngoại."
+    ],
+    "correctIndex": 2,
+    "explanation": "Bài 11 nêu rõ: an ninh chính trị là cốt lõi, xuyên suốt; bên cạnh đó có các vấn đề an ninh phi truyền thống.",
+    "sourcePage": "Trang 1"
+  },
+  {
+    "id": 4,
+    "sector": "KHÁI NIỆM",
+    "question": "\"Giữ gìn trật tự, an toàn xã hội\" được hiểu là gì?",
+    "options": [
+      "Chỉ duy trì vệ sinh và trật tự tại nơi công cộng.",
+      "Chỉ giải quyết các hành vi vi phạm hành chính.",
+      "Chỉ phòng chống các loại tệ nạn xã hội.",
+      "Phòng ngừa, phát hiện, ngăn chặn và đấu tranh chống tội phạm, hành vi vi phạm pháp luật.",
+      "Chỉ là nhiệm vụ của chính quyền địa phương.",
+      "Chỉ tập trung vào bảo vệ tài sản của công dân."
+    ],
+    "correctIndex": 3,
+    "explanation": "Giữ gìn trật tự, an toàn xã hội là phòng ngừa, phát hiện, ngăn chặn và đấu tranh chống tội phạm, hành vi vi phạm pháp luật. Đây là nhiệm vụ của toàn Đảng, toàn quân và toàn dân, trong đó Công an nhân dân giữ vai trò nòng cốt.",
+    "sourcePage": "Trang 1"
+  },
+  {
+    "id": 5,
+    "sector": "TÌNH HÌNH",
+    "question": "Theo Bài 11, thách thức của toàn cầu hóa và hội nhập quốc tế đối với an ninh trật tự Việt Nam bao gồm nội dung nào?",
+    "options": [
+      "Tội phạm công nghệ cao, văn hóa độc hại, dịch bệnh và các vấn đề an ninh phi truyền thống.",
+      "Mở rộng thị trường và tăng khả năng tiếp cận công nghệ.",
+      "Nâng cao thế và lực của đất nước.",
+      "Tạo thuận lợi cho hợp tác quốc tế trong phòng, chống tội phạm.",
+      "Tạo thêm tiềm lực về khoa học và công nghệ.",
+      "Tăng cơ hội hợp tác kinh tế với các quốc gia khác."
+    ],
+    "correctIndex": 0,
+    "explanation": "Thách thức là áp lực lớn về an ninh trật tự: tội phạm công nghệ cao, văn hóa độc hại, dịch bệnh và các vấn đề an ninh phi truyền thống. Còn tiềm lực khoa học, công nghệ, thị trường, thế và lực, hợp tác phòng chống tội phạm là thời cơ.",
+    "sourcePage": "Trang 2"
+  },
+  {
+    "id": 6,
+    "sector": "TÌNH HÌNH",
+    "question": "Bài 11 đánh giá vai trò của ASEAN trong khu vực như thế nào?",
+    "options": [
+      "Chỉ là một tổ chức hợp tác kinh tế.",
+      "Không còn ảnh hưởng đáng kể tới an ninh khu vực.",
+      "Là nhân tố quan trọng trong duy trì hòa bình, ổn định, hợp tác và phát triển ở khu vực.",
+      "Là lực lượng quân sự chung của Đông Nam Á.",
+      "Chỉ tập trung giải quyết tranh chấp Biển Đông.",
+      "Chủ yếu quản lý các vấn đề nội bộ của từng quốc gia thành viên."
+    ],
+    "correctIndex": 2,
+    "explanation": "Bài 11 nhận định ASEAN tiếp tục giữ vị trí nhân tố quan trọng trong việc duy trì hòa bình, ổn định, hợp tác và phát triển ở khu vực.",
+    "sourcePage": "Trang 2"
+  },
+  {
+    "id": 7,
+    "sector": "QUAN ĐIỂM",
+    "question": "Theo quan điểm được trình bày trong Bài 11, bảo đảm an ninh quốc gia và giữ gìn trật tự, an toàn xã hội là nhiệm vụ như thế nào?",
+    "options": [
+      "Nhiệm vụ ngắn hạn chỉ thực hiện khi xuất hiện nguy cơ.",
+      "Nhiệm vụ riêng của lực lượng Công an.",
+      "Nhiệm vụ chủ yếu của Quân đội.",
+      "Nhiệm vụ trọng yếu, thường xuyên, chủ động và lâu dài của cả hệ thống chính trị và toàn dân tộc.",
+      "Nhiệm vụ chỉ đặt ra trong thời kỳ chiến tranh.",
+      "Nhiệm vụ chủ yếu của các cơ quan hành pháp địa phương."
+    ],
+    "correctIndex": 3,
+    "explanation": "Bài 11 khẳng định đây là nhiệm vụ trọng yếu, thường xuyên, chủ động và lâu dài của cả hệ thống chính trị và toàn dân tộc, với lực lượng nòng cốt là Quân đội và Công an.",
+    "sourcePage": "Trang 3–4"
+  },
+  {
+    "id": 8,
+    "sector": "QUAN ĐIỂM",
+    "question": "Theo Bài 11, lực lượng nào là bộ phận nòng cốt và là chỗ dựa trực tiếp, thường xuyên trong bảo vệ an ninh, trật tự?",
+    "options": [
+      "Các tổ chức xã hội.",
+      "Lực lượng Công an.",
+      "Các doanh nghiệp.",
+      "Các trường đại học.",
+      "Các tổ chức quốc tế.",
+      "Các cơ quan truyền thông."
+    ],
+    "correctIndex": 1,
+    "explanation": "Công an là bộ phận nòng cốt, chỗ dựa trực tiếp và thường xuyên; chịu trách nhiệm tham mưu cho Đảng và Nhà nước, hướng dẫn các lực lượng khác thực hiện nhiệm vụ bảo vệ an ninh, trật tự.",
+    "sourcePage": "Trang 4"
+  },
+  {
+    "id": 9,
+    "sector": "QUAN ĐIỂM",
+    "question": "Điểm mới nổi bật được nêu khi nói về Đại hội XIII trong việc kết hợp sức mạnh bảo vệ Tổ quốc là gì?",
+    "options": [
+      "Bổ sung yếu tố \"sức mạnh thời đại\".",
+      "Loại bỏ vai trò của hợp tác quốc tế.",
+      "Chỉ tập trung vào sức mạnh quân sự.",
+      "Chuyển toàn bộ nhiệm vụ sang lực lượng chuyên trách.",
+      "Chỉ ưu tiên phát triển kinh tế.",
+      "Giảm vai trò của hệ thống chính trị."
+    ],
+    "correctIndex": 0,
+    "explanation": "So với đại hội trước, Đại hội XIII bổ sung yếu tố \"sức mạnh thời đại\" để kết hợp tối đa với sức mạnh toàn dân tộc và hệ thống chính trị, tranh thủ sự đồng tình, ủng hộ của cộng đồng quốc tế.",
+    "sourcePage": "Trang 5"
+  },
+  {
+    "id": 10,
+    "sector": "NỘI DUNG",
+    "question": "Theo nguyên tắc xác định \"đối tác\" và \"đối tượng\" trong Bài 11, \"đối tượng\" được hiểu là ai?",
+    "options": [
+      "Mọi tổ chức hoặc quốc gia có quan hệ khác biệt với Việt Nam.",
+      "Chỉ các tổ chức nước ngoài.",
+      "Chỉ các đối tượng phạm tội hình sự.",
+      "Bất kỳ thế lực nào có âm mưu và hành động chống phá mục tiêu xây dựng và bảo vệ Tổ quốc.",
+      "Tất cả các quốc gia chưa thiết lập quan hệ hợp tác với Việt Nam.",
+      "Chỉ những cá nhân vi phạm pháp luật tại Việt Nam."
+    ],
+    "correctIndex": 3,
+    "explanation": "\"Đối tượng\" là bất kỳ thế lực nào có âm mưu và hành động chống phá mục tiêu xây dựng và bảo vệ Tổ quốc. Quan điểm cốt lõi là \"thêm bạn, bớt thù\": trong mỗi đối tượng có thể có mặt cần tranh thủ, hợp tác.",
+    "sourcePage": "Trang 7"
+  },
+  {
+    "id": 11,
+    "sector": "NỘI DUNG",
+    "question": "Trong nội dung giữ gìn trật tự, an toàn xã hội, việc chủ động giảm thiểu thiệt hại do tai nạn giao thông, tai nạn lao động và thiên tai thuộc nội dung nào?",
+    "options": [
+      "Phòng chống tội phạm.",
+      "Giữ gìn trật tự nơi công cộng.",
+      "Phòng ngừa tai nạn.",
+      "Phòng chống tệ nạn xã hội.",
+      "Bảo vệ môi trường.",
+      "Bảo vệ an ninh kinh tế."
+    ],
+    "correctIndex": 2,
+    "explanation": "Phòng ngừa tai nạn là chủ động phòng ngừa, giảm thiểu thiệt hại từ tai nạn giao thông, tai nạn lao động, thiên tai — một trong các nội dung giữ gìn trật tự, an toàn xã hội.",
+    "sourcePage": "Trang 9"
+  },
+  {
+    "id": 12,
+    "sector": "SINH VIÊN",
+    "question": "Hành động nào phù hợp nhất với trách nhiệm của sinh viên được nêu trong Bài 11?",
+    "options": [
+      "Chỉ tập trung học chuyên môn và không tham gia các vấn đề xã hội.",
+      "Tự mình xử lý các hành vi vi phạm pháp luật.",
+      "Chỉ báo cáo vi phạm khi ảnh hưởng trực tiếp tới bản thân.",
+      "Học tập, rèn luyện, chấp hành pháp luật và chủ động phát hiện, tố cáo các hành vi vi phạm cho nhà trường hoặc cơ quan có thẩm quyền.",
+      "Tránh hoàn toàn việc trao đổi về các vấn đề an ninh, trật tự.",
+      "Chỉ lực lượng chuyên trách mới cần quan tâm tới bảo vệ an ninh, trật tự."
+    ],
+    "correctIndex": 3,
+    "explanation": "Sinh viên cần ra sức học tập, rèn luyện, chấp hành nghiêm pháp luật; đồng thời chủ động phát hiện, mạnh dạn tố cáo hành vi vi phạm cho nhà trường, chính quyền địa phương hoặc cơ quan chức năng để xử lý kịp thời.",
+    "sourcePage": "Trang 11–12"
+  }
+]
