@@ -4,6 +4,7 @@ const STORAGE = {
   best: "hcmute-sp11-best-v1",
   preferences: "hcmute-sp11-preferences-v1"
 };
+const LEGACY_STORAGE_KEY = "hcmute-sp11:save:v1";
 const LETTERS = ["A", "B", "C", "D", "E", "F"];
 const audioFiles = {
   click: "./audio/sfx/ui-click.mp3",
@@ -46,6 +47,44 @@ function saveStored(key, value) {
     localStorage.setItem(key, JSON.stringify(value));
   } catch {
     // Local storage may be unavailable in a private browsing session.
+  }
+}
+
+function hasStored(key) {
+  try {
+    return localStorage.getItem(key) !== null;
+  } catch {
+    return false;
+  }
+}
+
+function migrateLegacySave() {
+  const legacy = readStored(LEGACY_STORAGE_KEY, null);
+  if (!legacy || typeof legacy !== "object") return;
+
+  const validStudentIds = new Set(students.map((student) => student.id));
+  if (!hasStored(STORAGE.called) && legacy.called && typeof legacy.called === "object") {
+    calledIds = new Set(Object.entries(legacy.called)
+      .filter(([id, record]) => validStudentIds.has(id) && record && Number(record.count) > 0)
+      .map(([id]) => id));
+    saveStored(STORAGE.called, [...calledIds]);
+  }
+
+  if (!hasStored(STORAGE.best) && legacy.bestScore != null) {
+    const legacyBest = Number(legacy.bestScore);
+    if (Number.isFinite(legacyBest) && legacyBest >= 0) {
+      const pointsPerQuestion = Number(settings.pointsPerQuestion) || 100;
+      saveStored(STORAGE.best, Math.round(legacyBest * pointsPerQuestion));
+    }
+  }
+
+  if (!hasStored(STORAGE.preferences) && legacy.settings && typeof legacy.settings === "object") {
+    preferences = {
+      ...preferences,
+      ...(typeof legacy.settings.soundEnabled === "boolean" ? { sfx: legacy.settings.soundEnabled } : {}),
+      ...(typeof legacy.settings.musicEnabled === "boolean" ? { bgm: legacy.settings.musicEnabled } : {})
+    };
+    saveStored(STORAGE.preferences, preferences);
   }
 }
 
@@ -185,8 +224,9 @@ function renderMission() {
   const choices = question.options.map((option, index) => {
     const isCorrect = (state.answerState === "revealed" || state.answerState === "correct") && index === Number(question.correctIndex);
     const isWrong = state.answerState === "retry" && index === state.selectedAnswer;
+    const isSpent = isWrong;
     return '<button class="answer-card ' + (isCorrect ? "is-correct" : "") + ' ' + (isWrong ? "is-wrong" : "") +
-      '" data-action="answer" data-index="' + index + '" ' + (locked ? "disabled" : "") + '>' +
+      '" data-action="answer" data-index="' + index + '" ' + (locked || isSpent ? "disabled" : "") + '>' +
       '<span class="answer-letter">' + (LETTERS[index] || (index + 1)) + '</span>' +
       '<span>' + escapeHtml(option) + '</span></button>';
   }).join("");
@@ -353,6 +393,7 @@ function summonResponder() {
 function submitAnswer(index) {
   const question = questions[state.questionIndex];
   if (!state.responder || state.answerState === "correct" || state.answerState === "revealed") return;
+  if (state.answerState === "retry" && index === state.selectedAnswer) return;
   if (!Number.isInteger(index) || index < 0 || index >= question.options.length) return;
 
   state.selectedAnswer = index;
@@ -466,6 +507,7 @@ async function loadContent() {
   if (!Array.isArray(questions) || !questions.length || !Array.isArray(students) || !students.length) {
     throw new Error("Dữ liệu câu hỏi hoặc danh sách lớp đang trống.");
   }
+  migrateLegacySave();
   render();
 }
 
